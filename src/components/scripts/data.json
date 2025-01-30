@@ -1,0 +1,61 @@
+{
+    "services": [
+      {
+        "title": "Company Formation",
+        "description": "Build web-based solutions that enhance customer experience.",
+        "image": "/dataset/services/service-1.png"
+      },
+      {
+        "title": "Company Secretarial Services",
+        "description": "Make data-driven decisions and utilize technology to reach business goals.",
+        "image": "/dataset/services/service-2.png"
+      },
+      {
+        "title": "Virtual Office Address",
+        "description": "Foster customer relationships by effectively serving your market.",
+        "image": "/dataset/services/service-3.png"
+      },
+      {
+        "title": "Annual Compliance Services",
+        "description": "Turn your ideas into modern products with our design experts.",
+        "image": "/dataset/services/service-4.png"
+      },
+      {
+        "title": "Payroll Services",
+        "description": "Expand your business across the globe with minimal effort.",
+        "image": "/dataset/services/service-5.png"
+      },
+      {
+        "title": "Bookkeeping Services",
+        "description": "Steering user behaviours with creative design, data insights & technology.",
+        "image": "/dataset/services/service-6.png"
+      }
+    ],
+    "features": [
+      {
+        "title": "Confidential & Safe",
+        "description": "All your private information is safe with us",
+        "image": "/dataset/features/features-1.png",
+        "color": "#FFE4E1"
+      },
+      {
+        "title": "No Hidden Fee",
+        "description": "Everything is put before you with no hidden charges or conditions",
+        "image": "/dataset/features/features-2.png",
+        "color": "#F0F8FF"
+      },
+      {
+        "title": "Guaranteed Satisfaction",
+        "description": "We ensure that you stay 100% satisfied with our offered services",
+        "image": "/dataset/features/features-3.png",
+        "color": "#FAEBD7"
+      },
+      {
+        "title": "Expert CA/CS Assistance",
+        "description": "Prompt support from our in-house expert professionals",
+        "image": "/dataset/features/features-4.png",
+        "color": "#F0FFF0"
+      }
+    ]
+  }
+  

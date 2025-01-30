@@ -1,0 +1,109 @@
+.home-container {
+    background-image: url('/public/dataset/home/home-1.png');
+    background-size: max(120%, 1000px);
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-left,
+.home-right {
+    width: 50%;
+    height: 100%;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Right Section }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.home-right {
+    background-image: url('/public/dataset/home/home-2.png'), url('/public/dataset/home/home-3.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    background-size: 90%, 40%;
+    position: relative;
+}
+
+.right-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    right: -15px;
+    top: 10%;
+}
+
+.right-btns>button {
+    width: 250px;
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    cursor: pointer;
+    font-size: large;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Left Section }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.ratings {
+    display: inline-block;
+    font-size: 15px;
+    text-align: start;
+}
+
+.ratings>span {
+    font-size: 20px;
+    color: var(--yellow);
+}
+
+.ratings>img {
+    height: 15px;
+}
+
+.left-heading {
+    font-size: 50px;
+    text-align: justify;
+}
+
+.left-para {
+    font-size: 23px;
+    text-align: start;
+    width: 90%;
+    color: rgb(69, 69, 69);
+}
+
+.home-left>img {
+    width: 80%;
+    margin: 40px 20px;
+}
+
+.left-bottom {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-bottom>button:first-of-type {
+    background-color: var(--blue);
+}
+
+.fa-play {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: rgb(240, 24, 24);
+    border: none;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Media Queries }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */

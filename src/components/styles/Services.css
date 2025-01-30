@@ -1,0 +1,65 @@
+.service-container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.partners{
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partner-images{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.partImage{
+    width: 150px;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Services }}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.service-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+.service-list>p{
+    color: var(--yellow);
+}
+.all-service-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-individual{
+    width: 30%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-individual>img{
+    width: 80px;
+}
+.card-individual>p{
+    width: 80%;
+}
+.card-individual>span{
+    font-weight: bold;
+    color: rgb(0, 0, 201);
+    cursor: pointer;
+    font-size: 17px;
+}
