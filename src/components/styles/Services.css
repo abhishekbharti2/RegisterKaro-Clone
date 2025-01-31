@@ -44,7 +44,7 @@
 }
 .card-individual{
     aspect-ratio: 3/2;
-    height: max-content;
+    height: 250px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,9 @@
     cursor: pointer;
     font-size: 17px;
 }
+.service-list>button{
+    margin: 20px;
+}
 
 @media (max-width:750px) {
     .partner-images{
@@ -78,4 +81,7 @@
     .fa-search{
         font-size: 20px;
     }  
+    .card-individual{
+        height: min-content;
+    }
 }

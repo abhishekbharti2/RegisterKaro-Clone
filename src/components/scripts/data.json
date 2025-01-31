@@ -1,61 +1,153 @@
 {
-    "services": [
-      {
-        "title": "Company Formation",
-        "description": "Build web-based solutions that enhance customer experience.",
-        "image": "/dataset/services/service-1.png"
-      },
-      {
-        "title": "Company Secretarial Services",
-        "description": "Make data-driven decisions and utilize technology to reach business goals.",
-        "image": "/dataset/services/service-2.png"
-      },
-      {
-        "title": "Virtual Office Address",
-        "description": "Foster customer relationships by effectively serving your market.",
-        "image": "/dataset/services/service-3.png"
-      },
-      {
-        "title": "Annual Compliance Services",
-        "description": "Turn your ideas into modern products with our design experts.",
-        "image": "/dataset/services/service-4.png"
-      },
-      {
-        "title": "Payroll Services",
-        "description": "Expand your business across the globe with minimal effort.",
-        "image": "/dataset/services/service-5.png"
-      },
-      {
-        "title": "Bookkeeping Services",
-        "description": "Steering user behaviours with creative design, data insights & technology.",
-        "image": "/dataset/services/service-6.png"
-      }
-    ],
-    "features": [
-      {
-        "title": "Confidential & Safe",
-        "description": "All your private information is safe with us",
-        "image": "/dataset/features/features-1.png",
-        "color": "#FFE4E1"
-      },
-      {
-        "title": "No Hidden Fee",
-        "description": "Everything is put before you with no hidden charges or conditions",
-        "image": "/dataset/features/features-2.png",
-        "color": "#F0F8FF"
-      },
-      {
-        "title": "Guaranteed Satisfaction",
-        "description": "We ensure that you stay 100% satisfied with our offered services",
-        "image": "/dataset/features/features-3.png",
-        "color": "#FAEBD7"
-      },
-      {
-        "title": "Expert CA/CS Assistance",
-        "description": "Prompt support from our in-house expert professionals",
-        "image": "/dataset/features/features-4.png",
-        "color": "#F0FFF0"
-      }
-    ]
-  }
-  
+  "services": [
+    {
+      "title": "Company Formation",
+      "description": "Build web-based solutions that enhance customer experience.",
+      "image": "/dataset/services/service-1.png"
+    },
+    {
+      "title": "Company Secretarial Services",
+      "description": "Make data-driven decisions and utilize technology to reach business goals.",
+      "image": "/dataset/services/service-2.png"
+    },
+    {
+      "title": "Virtual Office Address",
+      "description": "Foster customer relationships by effectively serving your market.",
+      "image": "/dataset/services/service-3.png"
+    },
+    {
+      "title": "Annual Compliance Services",
+      "description": "Turn your ideas into modern products with our design experts.",
+      "image": "/dataset/services/service-4.png"
+    },
+    {
+      "title": "Payroll Services",
+      "description": "Expand your business across the globe with minimal effort.",
+      "image": "/dataset/services/service-5.png"
+    },
+    {
+      "title": "Bookkeeping Services",
+      "description": "Steering user behaviours with creative design, data insights & technology.",
+      "image": "/dataset/services/service-6.png"
+    }
+  ],
+  "features": [
+    {
+      "title": "Confidential & Safe",
+      "description": "All your private information is safe with us",
+      "image": "/dataset/features/features-1.png",
+      "color": "#FFE4E1"
+    },
+    {
+      "title": "No Hidden Fee",
+      "description": "Everything is put before you with no hidden charges or conditions",
+      "image": "/dataset/features/features-2.png",
+      "color": "#F0F8FF"
+    },
+    {
+      "title": "Guaranteed Satisfaction",
+      "description": "We ensure that you stay 100% satisfied with our offered services",
+      "image": "/dataset/features/features-3.png",
+      "color": "#FAEBD7"
+    },
+    {
+      "title": "Expert CA/CS Assistance",
+      "description": "Prompt support from our in-house expert professionals",
+      "image": "/dataset/features/features-4.png",
+      "color": "#F0FFF0"
+    }
+  ],
+  "blogs": [
+    {
+      "author": "Prabhash Mishra",
+      "date": "1 Jan 2023",
+      "title": "Small business & Startup",
+      "description": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+      "tags": [
+        "Tax & Audit",
+        "Management"
+      ],
+      "images": "/dataset/blogs/blog-1.png"
+    },
+    {
+      "author": "Mahesh Kumar",
+      "date": "1 Jan 2023",
+      "title": "Scale-Up Company Offer",
+      "description": "Mental models are simple expressions of complex processes or relationships.",
+      "tags": [
+        "Tax",
+        "Research",
+        "Compliance"
+      ],
+      "images": "/dataset/blogs/blog-2.png"
+    },
+    {
+      "author": "Rakhi Verma",
+      "date": "1 Jan 2023",
+      "title": "Growing Business Package",
+      "description": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+      "tags": [
+        "Audit",
+        "Money Back"
+      ],
+      "images": "/dataset/blogs/blog-3.png"
+    },
+    {
+      "author": "Karan Kumar",
+      "date": "1 Jan 2023",
+      "title": "Scale-Up Company Offer",
+      "description": "Collaboration can make our teams stronger, and our individual designs better.",
+      "tags": [
+        "Money",
+        "Management"
+      ],
+      "images": "/dataset/blogs/blog-4.png"
+    },
+    {
+      "author": "Richa Singh",
+      "date": "1 Jan 2023",
+      "title": "Scale-Up Company Offer",
+      "description": "JavaScript frameworks make development easy with extensive features and functionalities.",
+      "tags": [
+        "Tax Return",
+        "News",
+        "Audit"
+      ],
+      "images": "/dataset/blogs/blog-5.png"
+    },
+    {
+      "author": "Miss Nora",
+      "date": "1 Jan 2023",
+      "title": "Scale-Up Company Offer",
+      "description": "Starting a community doesn’t need to be complicated, but how do you get started?",
+      "tags": [
+        "Private Limited Company",
+        "Customer Success"
+      ],
+      "images": "/dataset/blogs/blog-2.png"
+    }
+  ],
+  "sliders": [
+    {
+        "name": "Chris",
+        "position": "President and CEO, PrintReach, USA",
+        "image": "/dataset/blogs/blog-6.png",
+        "rating": 4.5,
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident."
+    },
+    {
+        "name": "Jhonson",
+        "position": "President and CEO, PrintReach, USA",
+        "image": "/dataset/blogs/blog-5.png",
+        "rating": 4.5,
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident."
+    },
+    {
+        "name": "Jane Doe",
+        "position": "President and CEO, PrintReach, USA",
+        "image": "/dataset/blogs/blog-4.png",
+        "rating": 4.5,
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident."
+    }
+  ]
+}
