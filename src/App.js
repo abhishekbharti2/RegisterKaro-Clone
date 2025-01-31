@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/scripts/Navbar';
 import Home from './components/scripts/Home';
 import Services from './components/scripts/Services';
-import Blogs from './components/scripts/Blogs';
+import About from './components/scripts/About';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
      <Navbar/>
      <Home/>
      <Services/>
-     <Blogs/>
+     <About/>
     </div>
   );
 }

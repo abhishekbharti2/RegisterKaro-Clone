@@ -16,12 +16,13 @@
     gap: 3%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .partImage{
     width: 150px;
 }
 
-/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Services }}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Service Cards }}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
 
 .service-list{
     display: flex;
@@ -42,8 +43,8 @@
     gap: 10px;
 }
 .card-individual{
-    width: 30%;
-    height: 400px;
+    aspect-ratio: 3/2;
+    height: max-content;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -52,9 +53,11 @@
     gap: 10px;
 }
 .card-individual>img{
-    width: 80px;
+    width: 50px;
 }
 .card-individual>p{
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
 }
 .card-individual>span{
@@ -62,4 +65,17 @@
     color: rgb(0, 0, 201);
     cursor: pointer;
     font-size: 17px;
+}
+
+@media (max-width:750px) {
+    .partner-images{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .partImage{
+        width: 200px;
+    }  
+    .fa-search{
+        font-size: 20px;
+    }  
 }

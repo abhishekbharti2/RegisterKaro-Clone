@@ -5,7 +5,7 @@ export default function Home() {
         <div className="home-container" id='home'>
             <div className="home-left">
                 <span className='ratings'><span>★</span> Google Ratings <img src="/dataset/home/home-4.png" alt="starimg" /></span>
-                <span className='left-heading'>Your trusted Parter <br /> for compilience Business needs </span >
+                <span className='left-heading'>Your trusted Parter for compilience Business needs </span >
                 <hr />
                 <span className='left-para'> An online business compliance platform that helps entrepreneurs and other individuals with various, <strong>registrations</strong>, <strong>tax filings</strong>, and other <strong>legal matters</strong>.</span>
                 <img src="/dataset/home/home-5.png" alt="cf" />

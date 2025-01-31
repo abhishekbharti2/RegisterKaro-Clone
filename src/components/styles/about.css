@@ -1,0 +1,119 @@
+.about-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.upper-about,
+.lower-about {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.about-left>span,
+.about-left-title>span {
+    color: var(--yellow);
+}
+
+.about-left,
+.about-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-about{
+    align-items: start;
+}
+.lower-blr {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-right>img {
+    width: 70%;
+}
+
+.about-left-para {
+    text-align: start;
+    width: 80%;
+}
+
+.cb-card {
+    height: 200px;
+    aspect-ratio: 3/2;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.cb-card>img {
+    width: 50px;
+}
+
+.lowest-about {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue);
+    padding: 5% 2%;
+}
+
+.lowest-left,
+.lowest-right {
+    width: 48%;
+}
+
+.lowest-left {
+    text-align: start;
+}
+
+.lowest-left>* {
+    color: white;
+    width: 80%;
+    padding: 0px 5%;
+}
+
+.lowest-right>iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.lowest-left>h2>img {
+    width: 30px;
+    transform: translateY(8px);
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Media Queries }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+@media (max-width:750px) {
+
+    .upper-about,
+    .lower-about {
+        flex-direction: column;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%;
+    }
+
+    .lowest-about {
+        flex-direction: column;
+    }
+
+    .lowest-left,
+    .lowest-right {
+        width: 100%;
+    }
+
+    .about-left-para {
+        width: 100%;
+    }
+
+    .about-right>img {
+        width: 100%;
+    }
+}

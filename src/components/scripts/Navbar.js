@@ -1,6 +1,7 @@
 import '../styles/Navbar.css'
 export default function Navbar() {
     return (
+       <>
         <nav>
             <div className="uppernav">
                 <div className="contacts">
@@ -14,16 +15,23 @@ export default function Navbar() {
             </div>
             <div className="lowernav">
                 <img src='/dataset/navbar/navbar-1.png' alt="logo" className='logo' />
+
+                <input type="checkbox" id="sidebarCheck" hidden />
+                <label htmlFor="sidebarCheck" id='sidebarBtn-1'>&#9776;</label>
+                <label htmlFor="sidebarCheck" id='sidebarBtn-2'>&#10005;</label>
                 <div className="navitems">
                     <a href="#home" className="navlink">Home</a>
                     <a href="#services" className="navlink">Our Services</a>
                     <a href="#blogs" className="navlink">Blog</a>
                     <a href="/" className="navlink">Contact Us</a>
-                    <a href="/" className="navlink">Aboout Us</a>
-                    <a href='/' className="fa fa-search navlink"> </a>
-                    <button className='navbarBtn'>Talk and Expert</button>
+                    <a href="/#about" className="navlink">About Us</a>
+                    <span className="fa fa-search navlink"> </span>
+                    <button className='navbarBtn'>Talk to an Expert</button>
                 </div>
+
             </div>
         </nav>
+        <div className="space"></div>
+       </>
     );
 }

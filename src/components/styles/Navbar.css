@@ -4,8 +4,13 @@ nav {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    z-index: 100;
 }
-
+.space{
+    height: 108px;
+    width: 100%;
+}
 .uppernav {
     background-color: var(--blue);
     padding: 13px 15px;
@@ -79,12 +84,76 @@ nav {
     font-weight: bold;
     cursor: pointer;
 }
-.bgblue{
+
+.bgblue {
     background-color: var(--blue);
+}
+
+#sidebarBtn-1, #sidebarBtn-2 {
+    display: none;
+}
+
+#sidebarCheck {
+    display: none;
 }
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{ Media Queries }}}}}}}}}}}}}}}}}}}}}}}}}}} */
 
-@media (max-width: 1000px) {
-    
+@media (max-width: 750px) {
+    .logo {
+        height: 30px;
+    }
+
+    #sidebarBtn-1 {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navitems {
+        flex-direction: column;
+        position: fixed;
+        top: 106px;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        gap: 1px;
+        padding-top: 50px;
+        transition: all .7s ease;
+    }
+    .navlink{
+        width: 90%;
+        border-bottom: 0.1px solid grey;
+        padding: 15px;
+    }
+    .navitems>button{
+        width: 100%;
+    }
+
+    #sidebarCheck:checked~.navitems {
+        left: 0px;
+    }
+    #sidebarCheck:checked~#sidebarBtn-1{
+        display: none;
+    }
+    #sidebarCheck:checked~#sidebarBtn-2{
+        display: block;
+    }
+
+    .fa, .fa>span {
+        font-size: 50%;
+    }
+
+}
+@media (max-width:1000px) and (min-width:750px) {
+    .navlink{
+        font-size: 14px;
+    }
+    .navbarBtn{
+        width: 100px;
+        font-size: 10px;
+    }
+    .logo{
+        height: 30px;
+    }
 }

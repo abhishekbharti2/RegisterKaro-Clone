@@ -1,12 +1,13 @@
 .home-container {
     background-image: url('/public/dataset/home/home-1.png');
-    background-size: max(120%, 1000px);
+    background-size: cover;
     background-position: center;
     background-color: rgb(255, 255, 255);
     height: 100vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 .home-left,
@@ -52,7 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 3%;
+    padding: 0 3%;
 }
 
 .ratings {
@@ -72,7 +73,8 @@
 
 .left-heading {
     font-size: 50px;
-    text-align: justify;
+    text-align: start;
+    width: 90%;
 }
 
 .left-para {
@@ -107,3 +109,32 @@
 }
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Media Queries }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+@media (max-width: 748px) {
+    .home-container{
+        flex-direction: column;
+        height: max-content;
+        padding: 30px 0px;
+        gap: 20px;
+    }
+    .home-left, .home-right{
+        width: 100%;
+        gap: 10px;
+    }
+    .right-btns {
+        flex-direction: column;
+        gap: 40px;
+        position: relative;
+        padding: 50px 0px;
+    }
+    .right-btns>button {
+        width: 200px;
+        padding: 10px;
+    }
+    .home-right {
+        background-size: contain, 40%;
+    }
+    .left-heading {
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+}
